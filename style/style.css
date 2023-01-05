@@ -1,0 +1,68 @@
+.btn-primary {
+    background: #ff5959;
+    height: 65px;
+    border: white 2px solid;
+    border-radius: 5px;
+    align-items: center
+        /* align-items: center; */
+        padding: 5px 70px;
+    font-size: 40px;
+    font-weight: 500px;
+    color: white;
+
+}
+
+
+
+.background-baner {
+
+    /* border: 2px solid black; */
+
+    background: #ff5959;
+    background-image: url(../donate-project/images/topbanner-image.png);
+    padding-top: 0x 200px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.banner-title {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+    font-weight: 800px;
+
+}
+
+.banner-descripotion {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 0 700px;
+
+}
+
+/* seciton Donate today  */
+
+.donate-today-section {
+    margin-top: 140px;
+}
+
+.donate-today {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+
+}
+
+.donatetoday-description {
+    text-align: center;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 0 300px;
+
+}
