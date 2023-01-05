@@ -3,9 +3,7 @@
     height: 65px;
     border: white 2px solid;
     border-radius: 5px;
-    align-items: center
-        /* align-items: center; */
-        padding: 5px 70px;
+    padding: 5px 70px;
     font-size: 40px;
     font-weight: 500px;
     color: white;
@@ -65,4 +63,30 @@
     font-weight: 600px;
     padding: 0 300px;
 
+}
+
+.amout-container {
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.amout-area {
+    width: 150px;
+    /* height: 100px; */
+    border-radius: 5px;
+    border: red solid 2px;
+    background: rgb(245, 240, 240);
+    margin-left: 80px;
+    /* text-align: center; */
+    font-size: 30px;
+
+}
+
+.amout {
+    padding: 18px;
+}
+
+.donate-description {
+    margin-bottom: 40px;
 }
