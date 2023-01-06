@@ -1,92 +1,48 @@
+/* button */
+
 .btn-primary {
-    background: #ff5959;
-    height: 65px;
-    border: white 2px solid;
-    border-radius: 5px;
-    padding: 5px 70px;
+    height: 60px;
     font-size: 40px;
-    font-weight: 500px;
     color: white;
+    border: solid white 1px;
+    font-weight: 200px;
+    border-radius: 5px;
+
+    background: rgb(236, 136, 136);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-bottom: 700px;
+
 
 }
 
+.button {}
 
-
-.background-baner {
-
-    /* border: 2px solid black; */
-
-    background: #ff5959;
-    background-image: url(../donate-project/images/topbanner-image.png);
-    padding-top: 0x 200px;
-    background-position: bottom;
+.main-banner {
+    background: bisque;
+    height: 670px;
+    background-image: url(../images/topbanner-image.png);
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
-.banner-title {
-    font-size: 80px;
+.main-banner h1 {
+    text-align: center;
+    font-size: 100px;
     color: white;
-    text-align: center;
-    padding-top: 300px;
-    font-weight: 800px;
-
+    font-weight: 400px;
+    padding: 180px 200px 0;
 }
 
-.banner-descripotion {
+.main-banner p {
     text-align: center;
+    font-size: 15px;
     color: white;
-    font-size: 20px;
-    font-weight: 600px;
-    padding: 0 700px;
+    padding-bottom: 260px;
+    padding-left: 180px 200px;
+    margin-bottom: 400px;
 
-}
 
-/* seciton Donate today  */
-
-.donate-today-section {
-    margin-top: 140px;
-}
-
-.donate-today {
-    font-size: 50px;
-    color: black;
-    text-align: center;
-
-}
-
-.donatetoday-description {
-    text-align: center;
-    color: #272727;
-    font-size: 20px;
-    font-weight: 600px;
-    padding: 0 300px;
-
-}
-
-.amout-container {
-    display: flex;
-    align-items: center;
-    margin-left: 450px;
-}
-
-.amout-area {
-    width: 150px;
-    /* height: 100px; */
-    border-radius: 5px;
-    border: red solid 2px;
-    background: rgb(245, 240, 240);
-    margin-left: 80px;
-    /* text-align: center; */
-    font-size: 30px;
-
-}
-
-.amout {
-    padding: 18px;
-}
-
-.donate-description {
-    margin-bottom: 40px;
 }
